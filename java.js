@@ -14,12 +14,11 @@ function buttonCheck(){
 
     }else if (guessnumber <number){
         gameresult.textContent = "Guess Is Too Low, Try Higher Number!";
-        gameresult.style.backgroundColor = "#ff0000ff";
     } else if (guessnumber > number) {
         gameresult.textContent= "Guess Is Too High, Try Lower Number!";
-        gameresult.style.backgroundColor = "#ff0000ff";
+       
     } else{
         gameresult.textContent = "Enter A Valid Number!";
-        gameresult.style.backgroundColor = "#9eff9df";
+        
     }
 }

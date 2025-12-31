@@ -48,8 +48,9 @@ font-family:monospace;
 .imgg{height: 80px;}
 .lastp{ color:rgb(255, 255, 255);
 height: 50;
-width: 490px;
-font-size:25px;
-padding:20px;
+width: 390px;
+font-size:20px;
+padding:10px;
 text-align:center;
-font-family:monospace;}
+font-family:monospace;
+border-radius: 20px;}
