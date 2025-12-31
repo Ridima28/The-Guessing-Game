@@ -1,1 +1,1 @@
-helo
+This is another guessing the number game, but using javascript, HTML and CSS

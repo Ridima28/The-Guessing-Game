@@ -8,16 +8,16 @@ function buttonCheck(){
 
     if (guessnumber === number) {
         gameresult.textContent="Congratulations You Guessed The Correct Number!!";
-        gameresult.style.backgroundColor = "#22870039";
+        gameresult.style.backgroundColor = "#279c00ff";
 
 
 
     }else if (guessnumber <number){
         gameresult.textContent = "Guess Is Too Low, Try Higher Number!";
-        gameresult.style.backgroundColor = "#9eff9dff";
+        gameresult.style.backgroundColor = "#ff0000ff";
     } else if (guessnumber > number) {
         gameresult.textContent= "Guess Is Too High, Try Lower Number!";
-        gameresult.style.backgroundColor = "#9eff9dff";
+        gameresult.style.backgroundColor = "#ff0000ff";
     } else{
         gameresult.textContent = "Enter A Valid Number!";
         gameresult.style.backgroundColor = "#9eff9df";
